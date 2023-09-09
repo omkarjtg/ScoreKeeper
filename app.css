@@ -1,0 +1,75 @@
+h1 { 
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    margin: auto 500px;
+    border: 2px solid rgb(170, 170, 170);
+    display: inline-block;
+    padding: 5px;
+    justify-content: space-between;
+    
+   
+}
+img {
+    height: 250px;
+    width: 450px;
+    
+}
+.score {
+    margin:5px 5px 5px 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+button {
+    border: 1px solid;
+    width: calc(99%/3);
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+    transition: background-color 200ms ease-in-out;
+}
+#p1 {
+    background-color: rgba(2,204,168,255);
+}
+#p1:active{
+    background-color: rgba(2,154,118,205);
+}
+#p2 {
+    background-color: rgba(44,141,216,255);
+    position: relative;
+    right: 2px;
+}
+#p2:active {
+    background-color: rgba(24,121,200,205);
+}
+#reset {
+    background-color: rgba(238,61,94,255);
+}
+#reset:active {
+    background-color: rgba(200,50,74,255);
+}
+#Playing {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#PlayUpTo {
+    background-color: #fff;
+    margin: 7px;
+    border-radius: 50px; 
+    padding: 8px;
+
+}
